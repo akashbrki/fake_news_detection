@@ -121,7 +121,7 @@ const HomePage = ({ onSearchSuccess }) => {
           Verify the Truth in Milliseconds
         </h1>
         <p className="text-brand-muted text-lg max-w-2xl mx-auto leading-relaxed">
-          Our advanced neural networks dissect news patterns to distinguish between factual reporting and deceptive misinformation with surgical precision.
+          Our advanced neural networks detects news patterns to distinguish between factual reporting and deceptive misinformation with surgical precision.
         </p>
       </div>
 
@@ -299,11 +299,10 @@ const AboutPage = () => {
           About TRUTH TRACE
         </h1>
         <p className="text-[#94A3B8] text-lg leading-relaxed">
-          TRUTH TRACE is an AI-powered fact verification tool built to combat misinformation. 
-          Our NoCap Engine (v2.1) is meticulously trained on the <span className="text-brand-teal font-bold">fakenewsdataset.csv</span> corpus, 
-          combining language analysis, source credibility scoring, and 
-          explainable AI to help readers understand <em className="italic text-white">why</em> a piece 
-          of content might be misleading.
+          TRUTH TRACE is an AI-powered fact verification tool built to combat
+          misinformation.Our NoCap Engine combines language analysis, source 
+          credibility scoring, and explainable AI to help readers understand
+          why a piece of content might be misleading.
         </p>
       </div>
 
