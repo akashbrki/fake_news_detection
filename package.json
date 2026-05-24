@@ -1,0 +1,39 @@
+{
+  "name": "fake_news_detection",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fake news detection project",
+  "main": "app.py",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "./venv/bin/python3 app.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srinath34b/fake_news_detection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srinath34b/fake_news_detection/issues"
+  },
+  "homepage": "https://github.com/srinath34b/fake_news_detection#readme",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.16.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0",
+    "vite": "^8.0.14"
+  }
+}
